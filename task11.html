@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(182, 40, 111);
+    }
+    .main{
+        background-color: rgba(120, 15, 66, 0.648);
+        text-align: center;
+        width: 600px;
+        margin-left: 500px;
+    }
+    .name{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+    }
+    .heading{
+        padding-right: 100px;
+    }
+    .email{
+        color: white;
+        margin-bottom: 20px;
+    }
+    .password{
+        color: white;
+        padding-right: 25px;
+        margin-bottom: 20px;
+    }
+    .gender{
+        color: white;
+        margin-left: 15px;
+        margin-bottom: 20px
+    }
+    .language{
+        margin-bottom: 20px;
+        color: white;
+        margin-right: 30px;
+    }
+    .zip{
+        color: white;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .about{
+        color: white;
+        margin-bottom: 20px;
+    }
+    input{
+        height: 25px;
+        border: none;
+    }
+    button{
+        margin-bottom: 25px;
+        height: 40px;
+        width: 90px;
+        border:none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="name">
+            <span class="heading">Name:</span>
+            <input type="text" placeholder="Your Name">
+        </div>
+        <div class="email">
+            <span class="heading">Email:</span>
+            <input type="email" placeholder="Your Email">
+        </div>
+        <div class="password">
+            <span class="heading">Password:</span>
+            <input type="password">
+        </div>
+        <div class="gender">
+            <span class="heading">Gender:</span>
+                <span>Male:</span>
+                <input type="radio">
+                <span>Female</span>
+                <input type="radio">
+                <span>Other:</span>
+                <input type="radio">
+        </div>
+        <div class="language">
+            <span class="heading">Language:</span>
+            <select>
+                <option>Choose your language</option>
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Bengali</option>
+                <option>Tamil</option>
+                <option>Telugu</option>
+            </select>
+        </div>
+        <div class="zip">
+            <span class="heading">Zip Code:</span>
+            <input type="text">
+        </div>
+        <div class="about">
+            <span class="heading">About:</span>
+            <textarea placeholder="Write about yourself"></textarea>
+        </div>
+        <div class="register">
+            <button>
+                <b>Register</b>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
